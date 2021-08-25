@@ -18,3 +18,40 @@ header p {
     margin-left: 77px;
     font-size: 2.4rem;
 }
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+main img {
+    width: 539.22px;
+    height: 414.25px;
+}
+
+main .right h1 {
+    font-family: "Space Mono", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+main .right p {
+    font-size: 20px;
+    font-family: "Space Mono", sans-serif;
+    font-weight: 400;
+    margin-top: 36px;
+    color: #4f4f4f;
+}
+
+main .right button {
+    margin-top: 30px;
+    background-color: #333;
+    font-family: "Space Mono", sans-serif;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    font-size: 14px;
+}
