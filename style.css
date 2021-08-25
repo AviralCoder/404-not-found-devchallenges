@@ -6,3 +6,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-size: 62.5%;
+}
+
+header p {
+    font-family: "Inconsolata", sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 77px;
+    font-size: 2.4rem;
+}
