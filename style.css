@@ -27,14 +27,15 @@ main {
 }
 
 main img {
-    width: 539.22px;
-    height: 414.25px;
+    width: 30%;
+    min-width: 300px;
 }
 
 main .right h1 {
     font-family: "Space Mono", sans-serif;
     font-size: 50px;
     font-weight: 700;
+    width: 500px;
 }
 
 main .right p {
@@ -46,7 +47,7 @@ main .right p {
 }
 
 main .right button {
-    margin-top: 30px;
+    margin-top: 40px;
     background-color: #333;
     font-family: "Space Mono", sans-serif;
     padding: 20px;
@@ -65,4 +66,29 @@ footer p {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media screen and (max-width: 768px) {
+    header p {
+        margin-top: 20px;
+        margin-left: 24px;
+    }
+
+    main .right h1 {
+        font-size: 34px;
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer p {
+        font-size: 13px;
+        margin-top: 40px;
+        position: relative;
+        text-align: center;
+    }
 }
